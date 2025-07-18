@@ -1,0 +1,44 @@
+{
+  "name": "laraxgram/database",
+  "description": "The LaraGram Database package.",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/laraxgram/core/issues",
+    "source": "https://github.com/laraxgram/core"
+  },
+  "authors": [
+    {
+      "name": "LaraGram",
+      "email": "laraxgram@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "ext-pdo": "*",
+    "laraxgram/collections": "^3.0",
+    "laraxgram/container": "^3.0",
+    "laraxgram/contracts": "^3.0",
+    "laraxgram/macroable": "^3.0",
+    "laraxgram/support": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraGram\\Database\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0.x-dev"
+    }
+  },
+  "suggest": {
+    "ext-filter": "Required to use the Postgres database driver.",
+    "laraxgram/console": "Required to use the database commands (^3.0).",
+    "laraxgram/events": "Required to use the observers with Eloquent (^3.0).",
+    "laraxgram/filesystem": "Required to use the migrations (^3.0)."
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
