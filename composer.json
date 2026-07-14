@@ -15,11 +15,11 @@
   "require": {
     "php": "^8.3",
     "ext-pdo": "*",
-    "laraxgram/collections": "^3.0",
-    "laraxgram/container": "^3.0",
-    "laraxgram/contracts": "^3.0",
-    "laraxgram/macroable": "^3.0",
-    "laraxgram/support": "^3.0"
+    "laraxgram/collections": "^4.0",
+    "laraxgram/container": "^4.0",
+    "laraxgram/contracts": "^4.0",
+    "laraxgram/macroable": "^4.0",
+    "laraxgram/support": "^4.0"
   },
   "autoload": {
     "psr-4": {
@@ -28,14 +28,14 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "3.0.x-dev"
+      "dev-master": "4.0.x-dev"
     }
   },
   "suggest": {
     "ext-filter": "Required to use the Postgres database driver.",
-    "laraxgram/console": "Required to use the database commands (^3.0).",
-    "laraxgram/events": "Required to use the observers with Eloquent (^3.0).",
-    "laraxgram/filesystem": "Required to use the migrations (^3.0)."
+    "laraxgram/console": "Required to use the database commands (^4.0).",
+    "laraxgram/events": "Required to use the observers with Eloquent (^4.0).",
+    "laraxgram/filesystem": "Required to use the migrations (^4.0)."
   },
   "config": {
     "sort-packages": true
